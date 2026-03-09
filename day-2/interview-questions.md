@@ -1,6 +1,6 @@
 # Interview Questions
 
-Q: What is AWS IAM, and why is it important?
+# Q: What is AWS IAM, and why is it important?
 
 A: AWS IAM (Identity and Access Management) is a service provided by Amazon Web Services that helps you control access to your AWS resources. 
 
@@ -10,7 +10,7 @@ IAM is important because it enhances security by ensuring that only authorized i
 
 helping you enforce the principle of least privilege and maintain a secure environment.
 
-Q: What is the difference between IAM users and IAM roles?
+# Q: What is the difference between IAM users and IAM roles?
 
 A: IAM users represent individual people or entities that need access to your AWS resources. 
 
@@ -20,7 +20,7 @@ On the other hand, IAM roles are used to grant temporary access to AWS resources
 
 Roles have associated policies and can be assumed by trusted entities to access resources securely.
 
-Q: What are IAM policies, and how do they work?
+# Q: What are IAM policies, and how do they work?
 
 A: IAM policies are JSON documents that define permissions. 
 
@@ -30,7 +30,7 @@ Policies control access by matching the actions requested by a user or entity wi
 
 If a requested action matches an allowed action in the policy, access is granted; otherwise, it is denied.
 
-Q: What is the principle of least privilege, and why is it important in IAM?
+# Q: What is the principle of least privilege, and why is it important in IAM?
 
 A: The principle of least privilege states that users should be granted only the permissions necessary to perform their tasks and nothing more. 
 
@@ -38,7 +38,7 @@ It is important in IAM because it minimizes the risk of unauthorized access and 
 
 Following the principle of least privilege helps maintain a secure environment by ensuring that users have only the permissions they need to perform their job responsibilities.
 
-Q: What is an AWS managed policy?
+# Q: What is an AWS managed policy?
 
 A: An AWS managed policy is a predefined policy created and managed by AWS. 
 
