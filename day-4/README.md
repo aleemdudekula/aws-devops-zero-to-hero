@@ -22,7 +22,8 @@ The following features help you configure a VPC to provide the connectivity that
 
 # Virtual private clouds (VPC)
 
-    A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets. 
+    A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. 
+    After you create a VPC, you can add subnets. 
 
 ## What it is
 
@@ -75,7 +76,8 @@ Everything runs inside **one isolated network**.
 
 Subnets
 
-    A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
+    A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. 
+    After you add subnets, you can deploy AWS resources in your VPC.
 
 # 2. Subnets
 
@@ -134,7 +136,10 @@ This is a **standard 2-tier / 3-tier architecture in AWS**.
 
 IP addressing
 
-    You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+    You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets. 
+    You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, 
+    such as EC2 instances, NAT gateways, and Network Load Balancers.
+    
 # 3. IP Addressing
 
 ## What it is
@@ -194,7 +199,9 @@ VPN fails because of IP conflict
 
 Network Access Control List (NACL)
 
-    A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level. It operates at the IP address level and can allow or deny traffic based on rules that you define. NACLs provide an additional layer of network security for your VPC.
+    A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level. 
+    It operates at the IP address level and can allow or deny traffic based on rules that you define. 
+    NACLs provide an additional layer of network security for your VPC.
 
 # 4. Network Access Control List (NACL)
 
@@ -245,7 +252,9 @@ All servers in that subnet are protected.
    
 Security Group
 
-    A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC. It controls inbound and outbound traffic at the instance level. Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.  
+    A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC. 
+    It controls inbound and outbound traffic at the instance level. 
+    Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.  
 # 5. Security Groups
 
 ## What it is
@@ -349,7 +358,8 @@ Route table
 
 Gateways and endpoints
 
-    A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
+    A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. 
+    Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
 # 7. Gateways & Endpoints
 
 ## Internet Gateway (IGW)
@@ -496,7 +506,8 @@ For packet inspection.
 
 Transit gateways
 
-    Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
+    Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, 
+    and AWS Direct Connect connections.
 # 10. Transit Gateway
 
 ## What it is
