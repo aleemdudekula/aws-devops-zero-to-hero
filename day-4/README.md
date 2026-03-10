@@ -22,45 +22,8 @@ The following features help you configure a VPC to provide the connectivity that
 
 Virtual private clouds (VPC)
 
-    A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets. What it is
-A VPC is your private network inside AWS.
+    A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets. 
 
-You define:
-
-IP range (CIDR)
-
-subnets
-
-routing
-
-security
-
-Example:
-
-VPC CIDR
-10.0.0.0/16
-Real Production Problem
-
-Without VPC:
-
-all EC2 instances would be in one shared AWS network
-
-zero isolation between companies
-
-Real Scenario
-
-Company infrastructure:
-
-VPC
-10.0.0.0/16
-
-Frontend servers
-Backend servers
-Databases
-Load balancers
-
-Everything runs inside one isolated network.
-    
 Subnets
 
     A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
